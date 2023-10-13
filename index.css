@@ -82,7 +82,7 @@ flex-direction:row;
 section{
 	margin-left:auto;
 	margin-right:auto;
-	width:80%;
+	width: 84%;
 	height:800px;
 /* 	background-color: lightgreen; */
 	display: flex;
@@ -99,7 +99,7 @@ main{
 }
 
 .left{
-  margin-top:10%;
+  margin-top:12%;
   
   align-content:center; 
 	width:40%;

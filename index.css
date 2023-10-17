@@ -24,6 +24,11 @@ flex-wrap:wrap;
 flex-direction:row;
  
 }
+@media(max-width:650px){
+  head{
+    width:80%;
+  }
+}
 
 .nav{
 	display: flex;
@@ -89,6 +94,7 @@ section{
 	flex-wrap: wrap;
 		
 }
+
 main{
 	margin-top: 30px;
 }
@@ -96,6 +102,7 @@ main{
 	display: flex;
 	flex-direction: row;
 	margin-left:39px;
+  height:44rem;
 }
 
 .left{

@@ -7,7 +7,8 @@
 	height:714px
 }
 body{
-
+width: 1490px;
+height: 890px;
   background-color:#610C9F;
 }
 
@@ -25,8 +26,9 @@ flex-direction:row;
  
 }
 @media(max-width:650px){
-  head{
+ .head{
     width:80%;
+    font-size: 2rem;
   }
 }
 
@@ -97,6 +99,14 @@ section{
 
 main{
 	margin-top: 30px;
+}
+@media(max-width:650px){
+  #boom{
+    color:blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 #boom{
 	display: flex;
